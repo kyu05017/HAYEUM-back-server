@@ -1,15 +1,11 @@
 package com.hayeum.backserver.Application.te.controller;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.Enumeration;
 import java.util.HashMap;
 
 import com.hayeum.backserver.common.object.SendMap;
-import jakarta.servlet.ServletInputStream;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.StreamUtils;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
