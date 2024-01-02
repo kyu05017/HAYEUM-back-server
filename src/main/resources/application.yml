@@ -8,3 +8,12 @@ server:
 spring:
   profiles:
     active: dev
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  session:
+    store-type: redis
+testUser:
+  token: '1111'
+  name: 'wer'
+  postCnt: 5
